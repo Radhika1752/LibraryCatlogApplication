@@ -1,0 +1,11 @@
+<div>
+    <span>Filter Courses:</span>
+    <input type="radio" name="filter" value="all" [(ngModel)]="selectButtonValue" (change)="onRadioButtonChage()">
+    <span>All {{all}}</span>
+    <input type="radio" name="filter" value="premium" [(ngModel)]="selectButtonValue" (change)="onRadioButtonChage()">
+    <span>premium {{premium}}</span>
+    <input type="radio" name="filter" value="paid" [(ngModel)]="selectButtonValue" (change)="onRadioButtonChage()">
+    <span>paid {{paid}}</span>
+    <input type="radio" name="filter" value="free" [(ngModel)]="selectButtonValue" (change)="onRadioButtonChage()">
+    <span>free {{free}}</span>
+</div>
